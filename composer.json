@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.3",
-        "fliglio/flfc": "~1.0"
+        "fliglio/flfc": "dev-master"
     },
     "autoload": {
         "psr-0": { "Fliglio\\Fltk\\": "" }
