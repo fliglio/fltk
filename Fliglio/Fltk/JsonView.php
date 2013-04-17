@@ -5,7 +5,7 @@ use Fliglio\Flfc\ResponseContent;
 use Fliglio\Flfc\HasHeadersToSet;
 use Fliglio\Flfc\Response;
 
-class Fltk_JsonView implements ResponseContent, HasHeadersToSet {
+class JsonView implements ResponseContent, HasHeadersToSet {
 	
 	protected $data;
 	
