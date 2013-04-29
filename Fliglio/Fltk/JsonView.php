@@ -8,9 +8,11 @@ use Fliglio\Flfc\Response;
 class JsonView implements ResponseContent, HasHeadersToSet {
 	
 	protected $data;
+	protected $encoded;
 	
-	public function __construct($data) {
-		$this->data = $data;
+	public function __construct($data, $encoded=false) {
+		$this->data    = $data;
+		$this->encoded = $encoded;
 	}
 	
 	public function setHeadersOnResponse(Response $response) {
@@ -18,7 +20,7 @@ class JsonView implements ResponseContent, HasHeadersToSet {
 	}
 	
 	public function render() {
-		return json_encode($this->data);
+		return $this->encoded ? $this->data : json_encode($this->data);
 	}
 
 	public function toDebugString() {
