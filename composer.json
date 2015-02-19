@@ -1,5 +1,5 @@
 {
-    "name": "fliglio/fltk",
+    "name": "benschw/consul",
     "type": "library",
     "license": "GPL-3.0+",
     "authors": [
@@ -10,9 +10,12 @@
     ],
     "require": {
         "php": ">=5.3",
-        "fliglio/flfc": "dev-master"
+        "react/dns": "v0.4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1.0"
     },
     "autoload": {
-        "psr-0": { "Fliglio\\Fltk\\": "" }
+        "psr-0": { "Benschw\\Consul\\": "" }
     }
 }
