@@ -1,3 +1,3 @@
-# consul
+# fliglio-fltk
 
-	php vendor/bin/phpunit -c phpunit.xml
+hello world
