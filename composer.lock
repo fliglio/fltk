@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "51b4429af89a7b20693dea9a74de0c5a",
+    "packages": [
+        {
+            "name": "fliglio/flfc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fliglio/flfc.git",
+                "reference": "7be0a24ac0368c33dacd9cabcced6368b37eae08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fliglio/flfc/zipball/7be0a24ac0368c33dacd9cabcced6368b37eae08",
+                "reference": "7be0a24ac0368c33dacd9cabcced6368b37eae08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Fliglio\\Flfc\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Schwartz",
+                    "email": "benschw@gmail.com"
+                }
+            ],
+            "time": "2014-01-21 04:33:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fliglio/flfc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}
