@@ -12,7 +12,7 @@ class View implements ResponseContent {
 	}
 	
 	public function render() {
-		return $this->text;
+		return array($this->text);
 	}
 
 }
