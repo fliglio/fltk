@@ -24,7 +24,7 @@ class JsonView implements ResponseContent, HasHeadersToSet {
 	}
 
 	public function toDebugString() {
-		return $this->indent($this->render());
+		return self::indent($this->render());
 	}
 	
 	/**
@@ -35,7 +35,7 @@ class JsonView implements ResponseContent, HasHeadersToSet {
 	 * @param string $json The original JSON string to process.
 	 * @return string Indented version of the original JSON string.
 	 */
-	private function indent($json) {
+	private static function indent($json) {
 
 		$result      = '';
 		$pos         = 0;
